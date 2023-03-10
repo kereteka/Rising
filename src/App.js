@@ -7,12 +7,6 @@ import Main from "./screens/Main";
 
 function App() {
   return (
-    // <>
-    //   <Login />
-    //   <Main />
-    //   <DataTable />
-    // </>
-
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
