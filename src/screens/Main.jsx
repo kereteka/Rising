@@ -28,13 +28,13 @@ const Main = () => {
   } else
     return (
       <div className="flex bg-[#F2F2F2] w-fit h-full pb-10">
-        <div className="fixed w-full z-40 h-[75px] bg-white right-0 top-0 text-black ">
+        <div className="fixed w-full z-50 h-[75px] bg-white right-0 top-0 text-black ">
           <div className="h-full w-full flex justify-between items-center px-10">
             <div className="ml-[96px] flex">
               <BsSearch />
               <p className=" opacity-40 mix-blend-normal ml-2 -mt-1">Search</p>
               <div
-                className="ml-24 opacity-5 cursor-pointer"
+                className="ml-24 opacity-30 cursor-pointer"
                 onClick={handleQuit}
               >
                 quit

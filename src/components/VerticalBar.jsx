@@ -37,13 +37,13 @@ const VerticalBar = () => {
             <div className=" max-h-[231px] w-[12px] relative" key={i}>
               <div
                 style={{ height: (data.Instagram * 48) / 100 }}
-                className={`absolute w-[12px] bg-action-primary rounded-full bottom-5 z-50`}
+                className={`absolute w-[12px] bg-action-primary rounded-full bottom-5 z-40`}
               ></div>
               <div
                 style={{
                   height: ((data.Instagram + data.Facebook) * 48) / 100,
                 }}
-                className={`absolute w-[12px] h-10 bg-action-success rounded-full bottom-5 z-40`}
+                className={`absolute w-[12px] h-10 bg-action-success rounded-full bottom-5 z-30`}
               ></div>
               <div
                 style={{
